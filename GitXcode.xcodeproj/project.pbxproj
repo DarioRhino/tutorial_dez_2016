@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A311C1131E09E41C00499534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A311C1121E09E41C00499534 /* AppDelegate.swift */; };
 		A311C1151E09E41C00499534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A311C1141E09E41C00499534 /* ViewController.swift */; };
-		A311C1181E09E41D00499534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A311C1161E09E41D00499534 /* Main.storyboard */; };
+		A311C1181E09E41D00499534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A311C1161E09E41D00499534 /* Main.storyboard */; settings = {ASSET_TAGS = (Label, ); }; };
 		A311C11A1E09E41D00499534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A311C1191E09E41D00499534 /* Assets.xcassets */; };
 		A311C11D1E09E41D00499534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A311C11B1E09E41D00499534 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -90,6 +90,9 @@
 		A311C1071E09E41C00499534 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Label,
+				);
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Dario Rhino";
